@@ -1,0 +1,5 @@
+create github repo
+make conda env 
+install requirements through setup.py
+project structure-> template.py
+loggin and exception handling
