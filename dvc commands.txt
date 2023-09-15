@@ -1,4 +1,11 @@
 pip install dvc
 dvc init
+git add .
+git commit 
+To track a data- dvc add artifacts/raw.csv
 
+
+
+Note ----
 .dvc- all the tracking will be done under this folder
+track dvc config , dvcignore and gitignore by git and we only track the data only by dvc
