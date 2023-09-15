@@ -3,3 +3,4 @@ make conda env
 install requirements through setup.py
 project structure-> template.py
 loggin and exception handling
+.env ,utils and data ingestion
