@@ -1,11 +1,21 @@
 pip install dvc
 dvc init
+ 
+To untrack any track data by git - just delete the data 
 git add .
-git commit 
-To track a data- dvc add artifacts/raw.csv
+git commit
 
+To track any untrack data by dvc - dvc add artifacts/raw.csv
+raw.csv.dvc will have the hash value of original data. And with the same hash it will have a tracked data under .dvc folder.
 
 
 Note ----
 .dvc- all the tracking will be done under this folder
 track dvc config , dvcignore and gitignore by git and we only track the data only by dvc
+we will track raw.csv.dvc and .gitignore present under artifacts directory data file with git.
+
+git add artifacts/raw.csv.dvc and git add artifacts/.gitignore
+
+When you change your main raw data, then your hash value in raw.csv.dvc also change. And you can find the tracked data under .dvc folder.
+
+#Track the data with dvc and its configurations files with git.
