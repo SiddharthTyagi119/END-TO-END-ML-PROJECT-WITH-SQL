@@ -1,0 +1,4 @@
+pip install dvc
+dvc init
+
+.dvc- all the tracking will be done under this folder
