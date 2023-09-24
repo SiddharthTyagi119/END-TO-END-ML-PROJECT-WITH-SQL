@@ -6,3 +6,4 @@ loggin and exception handling
 .env ,utils and data ingestion
 dvc
 data transformation ,utils,app.py
+training and evaluation , utils,app.py
